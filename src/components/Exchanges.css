@@ -1,0 +1,239 @@
+.exchange-container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Statistics Cards */
+.exchange-container .ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.exchange-container .ant-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.exchange-container .ant-statistic {
+  text-align: center;
+}
+
+.exchange-container .ant-statistic-title {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.exchange-container .ant-statistic-content {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* Search Input */
+.exchange-container .ant-input-affix-wrapper {
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: white !important;
+  border: 1px solid #d9d9d9;
+}
+
+.exchange-container .ant-input-affix-wrapper:hover,
+.exchange-container .ant-input-affix-wrapper:focus,
+.exchange-container .ant-input-affix-wrapper-focused {
+  background-color: white !important;
+  border-color: #d9d9d9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.custom-search-input {
+  background-color: white !important;
+}
+
+.custom-search-input .ant-input {
+  background-color: white !important;
+  color: #1f2937 !important;
+}
+
+.custom-search-input .ant-input:hover,
+.custom-search-input .ant-input:focus {
+  background-color: white !important;
+}
+
+.custom-search-input .anticon {
+  color: #6b7280;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background-color: white !important;
+}
+
+.ant-input-affix-wrapper-focused {
+  background-color: white !important;
+}
+
+/* Table Styles */
+.exchange-container .ant-table {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exchange-container .ant-table-thead > tr > th {
+  background-color: #f9fafb;
+  color: #374151;
+  font-weight: 600;
+}
+
+.exchange-container .ant-table-tbody > tr:hover > td {
+  background-color: #f3f4f6;
+}
+
+/* Avatar and Name styling */
+.exchange-container .ant-avatar {
+  border: 1px solid #e5e7eb;
+}
+
+.ant-card-head-title {
+  color: #1f2937 !important;
+  padding-left: 10px !important;
+}
+
+/* Tags styling */
+.exchange-container .ant-tag {
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: 500;
+}
+
+/* Expanded Row Content */
+.exchange-container .ant-table-expanded-row .ant-card {
+  background-color: #f9fafb;
+  border: none;
+  box-shadow: none;
+}
+
+.exchange-container .ant-table-expanded-row .ant-card:hover {
+  transform: none;
+}
+
+.exchange-container .ant-table-expanded-row .ant-card-head {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0 0 12px 0;
+}
+
+.exchange-container .ant-table-expanded-row .ant-card-body p {
+  margin-bottom: 12px;
+  color: #4b5563;
+}
+
+.exchange-container .ant-table-expanded-row .ant-card-body strong {
+  color: #374151;
+}
+
+/* Links */
+.exchange-container .ant-typography a {
+  color: #1890ff;
+  transition: color 0.3s ease;
+}
+
+.exchange-container .ant-typography a:hover {
+  color: #40a9ff;
+}
+
+/* Alert styling */
+.exchange-container .ant-alert {
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .exchange-container {
+    padding: 16px;
+  }
+
+  .exchange-container .ant-statistic-content {
+    font-size: 20px;
+  }
+
+  .exchange-container .ant-table {
+    font-size: 14px;
+  }
+}
+
+/* Loading state */
+.exchange-container .ant-spin {
+  margin: 20px 0;
+}
+
+/* Error state */
+.exchange-container .ant-alert-error {
+  margin-bottom: 24px;
+}
+
+/* Pagination */
+.exchange-container .ant-pagination {
+  margin-top: 16px;
+  text-align: right;
+}
+
+/* Title */
+.exchange-container .ant-typography {
+  color: #1f2937;
+}
+
+/* Custom color schemes for trust score tags */
+.exchange-container .trust-score-high {
+  background-color: #10b981;
+  color: white;
+  border: none;
+}
+
+.exchange-container .trust-score-medium {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+
+.exchange-container .trust-score-low {
+  background-color: #f59e0b;
+  color: white;
+  border: none;
+}
+
+/* Statistics icons */
+.exchange-container .anticon {
+  font-size: 20px;
+}
+
+.exchange-container .ant-statistic-content-prefix {
+  margin-right: 8px;
+}
+
+/* Table row hover effect */
+.exchange-container .ant-table-tbody > tr:hover {
+  cursor: pointer;
+}
+
+/* Custom scrollbar */
+.exchange-container ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.exchange-container ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.exchange-container ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.exchange-container ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

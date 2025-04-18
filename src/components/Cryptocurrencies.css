@@ -1,0 +1,522 @@
+:root {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --accent-primary: #3b82f6;
+  --accent-hover: #60a5fa;
+  --border-color: #475569;
+}
+
+.search-crypto {
+  margin-bottom: 3.5rem;
+  /* z-index: 99; */
+}
+
+.search-header {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 0 0 12px 12px;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.heading {
+  margin: 0;
+  text-align: center;
+  font-size: 2.2rem !important;
+  color: var(--text-primary) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px;
+}
+
+.search-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 800px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-crypto {
+  background-color: var(--bg-primary);
+}
+
+.search-input {
+  flex: 1;
+  max-width: 400px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+  padding: 0 1rem;
+}
+
+/* Target the Ant Design input wrapper */
+.search-input .ant-input-affix-wrapper {
+  background-color: var(--bg-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* Target the actual input element */
+.search-input .ant-input {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  border: none !important;
+}
+
+/* Hover states for the wrapper */
+.search-input .ant-input-affix-wrapper:hover,
+.search-input .ant-input-affix-wrapper:focus {
+  background-color: var(--bg-primary) !important;
+  border-color: var(--accent-primary) !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2) !important;
+}
+
+/* Ensure the input maintains dark background on hover/focus */
+.search-input .ant-input-affix-wrapper:hover .ant-input,
+.search-input .ant-input-affix-wrapper:focus .ant-input {
+  background-color: var(--bg-primary) !important;
+}
+
+/* Placeholder styles */
+.search-input .ant-input::placeholder {
+  color: var(--text-secondary) !important;
+  opacity: 0.7 !important;
+}
+
+/* Search icon color */
+.search-input .ant-input-prefix {
+  color: var(--text-secondary) !important;
+}
+
+/* Remove any white backgrounds from Ant Design components */
+.ant-input-affix-wrapper,
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:hover {
+  background-color: white !important;
+}
+
+/* Ensure dropdowns also have dark theme */
+.ant-select-dropdown {
+  background-color: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.ant-select-item {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.ant-select-item:hover {
+  background-color: var(--bg-tertiary) !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: var(--accent-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.search-icon {
+  font-size: 18px;
+}
+
+.sort-select {
+  width: 200px;
+  height: 45px;
+  border-radius: 8px;
+}
+
+.sort-select .ant-select-selector {
+  border-radius: 8px !important;
+  border: 1px solid var(--border-color) !important;
+  height: 45px !important;
+  display: flex !important;
+  align-items: center !important;
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.sort-select:hover .ant-select-selector {
+  border-color: var(--accent-primary) !important;
+}
+
+.sort-select.ant-select-focused .ant-select-selector {
+  border-color: var(--accent-primary) !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2) !important;
+}
+
+.crypto-card-container {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  max-width: 100%;
+  overflow: visible;
+  min-height: calc(100vh - 200px);
+}
+
+/* Override margin for the full cryptocurrencies page */
+/* .crypto-card-container.cryptocurrencies-page {
+  margin-top: 12rem;
+} */
+
+.cryptocurrencies-page {
+  margin-top: 3.5rem;
+}
+
+.crypto-card {
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
+  position: relative;
+  height: 100%;
+  background-color: #1e293b !important;
+  border: 1px solid #1e293b !important;
+  border-radius: 8px !important;
+}
+
+.crypto-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent-primary) !important;
+}
+
+.crypto-card .ant-card-head {
+  background-color: #1e293b !important;
+  border-bottom: 1px solid #1e293b !important;
+}
+
+.crypto-card .ant-card-body {
+  background-color: #1e293b !important;
+}
+
+.crypto-card .ant-card-meta-title {
+  color: #1e293b !important;
+}
+
+.crypto-card .ant-card-meta-description {
+  color: #64748b !important;
+}
+
+.crypto-image {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  border-radius: 50%;
+  padding: 2px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.crypto-image:hover {
+  transform: rotate(360deg);
+}
+
+.crypto-title {
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 4px 8px;
+  margin: -4px -8px;
+  transform-origin: left center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.crypto-title:hover {
+  color: #3182ce;
+  transform: scale(1.02);
+}
+
+.ant-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: visible;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.ant-card-head {
+  overflow: visible;
+  padding: 0 24px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-card-head-title {
+  transition: all 0.3s ease;
+  white-space: normal;
+  padding: 16px 0;
+  overflow: visible;
+  font-weight: 500;
+  color: var(--text-primary) !important;
+}
+
+.ant-card-head-title:hover {
+  color: #3182ce;
+  transform: scale(1.02);
+  transform-origin: left center;
+}
+
+.ant-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-chart {
+  margin: 1rem 0;
+  height: 100px;
+  position: relative;
+  background-color: #f8fafc;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.chart-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.price-chart .recharts-wrapper {
+  margin: 0 auto;
+}
+
+.price-chart .recharts-cartesian-grid line {
+  stroke: #1e293b;
+  stroke-dasharray: 3 3;
+}
+
+.price-chart .recharts-line {
+  stroke-width: 2;
+}
+
+.price-chart .recharts-tooltip-cursor {
+  fill: rgba(49, 130, 206, 0.1);
+}
+
+.custom-tooltip {
+  background: var(--bg-primary);
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  /* z-index: 100; */
+  min-width: 120px;
+}
+
+.tooltip-label {
+  color: #4a5568;
+  font-size: 12px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.tooltip-value {
+  color: #3182ce;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+}
+
+.crypto-details {
+  margin-top: 1rem;
+}
+
+.crypto-details p {
+  margin: 0.5rem 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crypto-details .label {
+  color: #718096;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.crypto-price {
+  font-size: 16px !important;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.crypto-market-cap {
+  color: var(--text-primary);
+}
+
+.crypto-change {
+  font-weight: 500;
+}
+
+.crypto-change.positive {
+  color: #38a169;
+}
+
+.crypto-change.negative {
+  color: #e53e3e;
+}
+
+.crypto-website a {
+  color: #3182ce;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.crypto-website a:hover {
+  text-decoration: underline;
+}
+
+.crypto-volume {
+  color: var(--text-primary);
+}
+
+.crypto-rank {
+  color: var(--text-primary);
+}
+
+.crypto-supply {
+  color: var(--text-primary);
+}
+
+.crypto-all-time-high {
+  color: var(--text-primary);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .crypto-card-container {
+    padding: 0 1rem;
+  }
+
+  .crypto-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .price-chart {
+    height: 80px;
+  }
+
+  .search-header {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .heading {
+    font-size: 1.8rem !important;
+  }
+
+  .search-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .search-input {
+    max-width: 100%;
+  }
+
+  .sort-select {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .crypto-card-container {
+    padding: 0 0.75rem;
+  }
+}
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 99;
+}
+
+.loading-spinner {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+.loading-spinner .ant-spin-dot {
+  font-size: 40px;
+}
+
+.loading-spinner .ant-spin-dot-item {
+  width: 20px;
+  height: 20px;
+}
+
+.ant-row {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 0;
+}
+
+.ant-col {
+  position: relative;
+  max-width: 100%;
+  min-height: 1px;
+}
+
+.price-changes {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+  /* margin: 0.5rem 0; */
+  /* padding: 0.5rem; */
+  /* background-color: #f8fafc; */
+  /* border-radius: 6px; */
+}
+
+.crypto-change {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.25rem 0; */
+}
+
+.crypto-change.positive {
+  color: #38a169;
+}
+
+.crypto-change.negative {
+  color: #e53e3e;
+}
