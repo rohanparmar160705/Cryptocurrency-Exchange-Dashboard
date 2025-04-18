@@ -1,7 +1,8 @@
-<<<<<<< HEAD
 # Cryptocurrency Exchange Dashboard
 
 A modern, responsive React application that provides real-time information about cryptocurrency exchanges, market statistics, and news. Built with React 18, Redux Toolkit, and Ant Design.
+
+🌐 **Live Demo**: [View Deployment](https://cryptocurrency-exchange-dashboard-cdvxzd5v6.vercel.app/)
 
 ## 🚀 Features
 
@@ -219,7 +220,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📞 Support
 
 For support, email [rohanparmar160705@gmail.com] or open an issue in the repository.
-=======
-# Cryptocurrency-Exchange-Dashboard
-Cryptocurrency-Exchange-Dashboard
->>>>>>> e7b7589017c6001018d5f933d558b7e9085d9916
