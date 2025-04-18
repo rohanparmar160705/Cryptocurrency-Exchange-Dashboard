@@ -4,6 +4,10 @@ A modern, responsive React application that provides real-time information about
 
 🌐 **Live Demo**: [View Deployment](https://cryptocurrency-exchange-dashboard-cdvxzd5v6.vercel.app/)
 
+## 📸 Screenshot
+
+![Cryptocurrency Exchange Dashboard](./src/Screenshot.png)
+
 ## 🚀 Features
 
 - **Real-time Exchange Data**: Track cryptocurrency exchanges with detailed information including:
