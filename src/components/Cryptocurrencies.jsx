@@ -153,7 +153,7 @@ const Cryptocurrencies = ({ simplified }) => {
           gutter={[32, 32]}
           className={`crypto-card-container ${
             isCryptocurrenciesPage ? "cryptocurrencies-page" : ""
-          }`}
+          }`} 
         >
           {filteredCryptos?.map((currency) => (
             <Col
